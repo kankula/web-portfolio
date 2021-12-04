@@ -25,7 +25,6 @@
 }
 .project-item {
     width: 450px;
-    opacity: 50%;
     transition: .3s;
     cursor: pointer;
 } 
@@ -38,9 +37,6 @@
     transform: translateY(65px);
     transition: .3s;
     
-}
-.project-item:hover {
-    opacity: 100%;
 }
 .project-item:hover .face1 {
     transform: translateY(0);
