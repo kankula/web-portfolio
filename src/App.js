@@ -5,7 +5,7 @@ import Home from './contents/Home';
 import Skills from './contents/Skills';
 import About from './contents/About';
 import Projects from './contents/Projects';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
