@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.StrictMode basename={"/web-portfolio"}>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
