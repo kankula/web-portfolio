@@ -1,0 +1,36 @@
+.home {
+    display: flex;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    position: relative;
+    z-index: 9;
+  }
+  .home .max-width {
+    margin: auto;
+  }
+  .home .home-content .text-1 {
+    font-size: 32px;
+    color: deepskyblue;
+  }
+  .home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+  }
+  .home .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+  }
+
+  @media only screen and (max-width: 550px) {
+    .home .home-content {
+      padding: 20px 40px;
+    }
+    .home .home-content .text-2 {
+      font-size: 50px;
+    }
+    .home .home-content .text-3 {
+      font-size: 30px;
+    }
+}

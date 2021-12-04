@@ -1,0 +1,68 @@
+.projects {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 9;
+}
+.projects .max-width {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects .max-width h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.616);
+}
+.projects .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+.project-item {
+    width: 450px;
+    opacity: 50%;
+    transition: .3s;
+    cursor: pointer;
+} 
+.project-item .face{
+    width: 100%;
+    
+}
+.project-item .face1 {
+    z-index: 1;
+    transform: translateY(65px);
+    transition: .3s;
+    
+}
+.project-item:hover {
+    opacity: 100%;
+}
+.project-item:hover .face1 {
+    transform: translateY(0);
+}
+.project-item .Proj_pic1, .Proj_pic2, .Proj_pic3 {
+    width: 100%;
+}
+.project-item .face2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+.project-item .face2 a {
+    font-size: 2rem;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.164);
+}
+.project-item .face2 a:hover {
+    background: rgba(0, 0, 0, 0.466);
+}

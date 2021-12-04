@@ -1,0 +1,70 @@
+.skill {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 9;
+}
+.skill .max-width {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill .container h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.349);
+    text-transform: uppercase;
+}
+.icon-skills {
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}
+.icon-skills i{
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    font-size: 7rem;
+    margin: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    transition: background-position .5s, color .5s;
+}
+.icon-skills i:nth-child(1) {
+    color: #FF5733;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.281) 50%, #FF5733 50%);
+}
+.icon-skills i:nth-child(2) {
+    color: #3091FF;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.281) 50%, #3091FF 50%);
+}
+.icon-skills i:nth-child(3) {
+    color: #FFC300;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.281) 50%, #FFC300 50%);
+}
+.icon-skills i:nth-child(4) {
+    color: #30C7FF;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.281) 50%, #30C7FF 50%);
+}
+.icon-skills i:hover {
+    background-position: 0% 100%;
+    color: #fff;
+}
+
+@media only screen and (max-width: 550px) {
+    .icon-skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .icon-skills i {
+        width: 100px;
+        height: 100px;
+        font-size: 4rem;
+    }
+}
+

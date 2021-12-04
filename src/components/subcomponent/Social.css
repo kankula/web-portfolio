@@ -1,0 +1,68 @@
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-social a {
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.541);
+    background: rgba(255, 255, 255, 0.12);
+    transition: .4s;
+    cursor: pointer;
+}
+.icon-social a:nth-child(1):hover {
+    color: #3498DB;
+    background: #fff;
+}
+.icon-social a:nth-child(2):hover {
+    color: #d73deb;
+    background: #fff;
+}
+.icon-social a:nth-child(3):hover {
+    color: #000;
+    background: #fff;
+}
+.sub-contact {
+    margin: 10px;
+}
+.sub-contact h2 {
+    font-size: 1.4rem;
+    color: deepskyblue;
+}
+.sub-contact span {
+    color: rgba(255, 255, 255, 0.562);
+    transition: .3s;
+}
+.sub-contact span:hover {
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .contact {
+        display: block;
+    }
+    .icon-social {
+        display: block;
+    }
+   .icon-social a {
+       width: 45px;
+       height: 45px;
+       font-size: 2rem;
+   }
+   .sub-contact h2{
+    font-size: 1rem;
+}
+}
