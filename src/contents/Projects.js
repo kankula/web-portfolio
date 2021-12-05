@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <section id="projects" className="projects">
             <div className="max-width">
-                <div>
+                <div className="proj-c">
                     <h1>My Projects</h1>
                     <div className="container">
                         <div className="project-item">

@@ -56,6 +56,28 @@
     color: #fff;
 }
 
+@media only screen and (max-width: 900px) {
+    .icon-skills {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .icon-skills i {
+        width: 200px;
+        height: 200px;
+        font-size: 4.5rem;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .icon-skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .icon-skills i {
+        width: 200px;
+        height: 200px;
+        font-size: 4.5rem;
+    }
+}
 @media only screen and (max-width: 550px) {
     .icon-skills {
         display: grid;
