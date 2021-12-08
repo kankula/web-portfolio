@@ -42,7 +42,7 @@
 .project-item:hover .face1 {
     transform: translateY(0);
 }
-.project-item .Proj_pic1, .Proj_pic2, .Proj_pic3 {
+.project-item .Proj_pic1, .Proj_pic2, .Proj_pic3, .Proj_pic4 {
     width: 100%;
 }
 .project-item .face2 {
