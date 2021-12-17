@@ -86,3 +86,11 @@
        padding-bottom: 10px;
    }
 }
+@media only screen and (max-width: 550px) {
+    .tab h2 {
+        font-size: .7rem;
+    }
+    .tab-con h3 {
+        font-size: 1rem;
+    }
+}
