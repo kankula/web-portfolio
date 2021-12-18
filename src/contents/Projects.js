@@ -30,7 +30,7 @@ const Projects = () => {
                                 <a href="https://github.com/kankula/Animation-Sea.git" target="_blank">Open Code</a>
                             </div>
                         </div>
-                        <div className="project-item">
+                        {/* <div className="project-item">
                             <div className="face face1">
                                 <img src={Proj_pic3} alt="p3.png" className="Proj_pic3" />
                             </div>
@@ -38,7 +38,7 @@ const Projects = () => {
                                 <a href="https://kankula.github.io/App-Shop/" target="_blank">Open Web</a>
                                 <a href="https://github.com/kankula/App-Shop.git" target="_blank">Open Code</a>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="project-item">
                             <div className="face face1">
                                 <img src={Proj_pic4} alt="p4.png" className="Proj_pic4" />
