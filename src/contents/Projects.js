@@ -12,7 +12,7 @@ const Projects = () => {
                 <div className="proj-c">
                     <h1>My Projects</h1>
                     <div className="container">
-                        <div className="project-item">
+                        {/* <div className="project-item">
                             <div className="face face1">
                                 <img src={Proj_pic1} alt="p1.png" className="Proj_pic1" />
                             </div>
@@ -20,7 +20,7 @@ const Projects = () => {
                                 <a href="https://kankula.github.io/layout-facebook/" target="_blank">Open Web</a>
                                 <a href="https://github.com/kankula/layout-facebook.git" target="_blank">Open Code</a>
                             </div>
-                        </div>
+                        </div> */}
                         {/* <div className="project-item">
                             <div className="face face1">
                                 <img src={Proj_pic2} alt="p2.png" className="Proj_pic2" />
